@@ -3,9 +3,7 @@ import {Hero,PopularProducts,SuperQuality,Services,SpecialOffer,CustomerReviews,
 
 const App = () => {
 
-  useEffect(() => {
-  document.title = "NIKE";
-}, []);
+  
   return (
    <main className='relative'>
       <Nav/> 
