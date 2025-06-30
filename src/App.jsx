@@ -2,6 +2,10 @@ import Nav from './components/Nav'
 import {Hero,PopularProducts,SuperQuality,Services,SpecialOffer,CustomerReviews,Subscribe,Footer} from './sections/index'
 
 const App = () => {
+
+  useEffect(() => {
+  document.title = "NIKE";
+}, []);
   return (
    <main className='relative'>
       <Nav/> 
