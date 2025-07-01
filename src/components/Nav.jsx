@@ -19,14 +19,14 @@ const Nav = () => {
               <li key={navlink.label}>
                 <a 
                 href={navlink.href}
-                className='font-montserrat leading-normal text-lg text-slate-gray'
+                className='font-montserrat leading-normal text-lg text-slate-gray hover:text-black hover:font-semibold'
                 >
                   {navlink.label}
                 </a>
               </li>
           ))}
         </ul>
-        <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden '>
+        <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden hover:font-semibold'>
           <a href="/">Sign in</a>
           <span>/</span>
           <a href="/">Explore now</a>
