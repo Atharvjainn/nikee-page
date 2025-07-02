@@ -35,7 +35,7 @@ const Nav = () => {
           <a href="/">Explore now</a>
         </div>
 
-        <div className='hidden max-lg:block'
+        <div className='hidden max-lg:block cursor-pointer'
         onClick={() => setHamburgerr(true)}>
           <img src={hamburger} alt="hamburger" 
           width={25}
@@ -56,7 +56,7 @@ const Nav = () => {
             
           </div>
 
-          <div className='flex flex-1 absolute top-81 ml-6 '>
+          <div className='flex flex-1 absolute top-81 ml-6 cursor-pointer '>
             <img src={close} alt="" width={40} height={40}
             onClick={() => setHamburgerr(false)} />
           </div>
